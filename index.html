@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Waleed Murad</h1>
+            <p>Web Developer & Digital Explorer</p>
+        </header>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hey there! I'm Waleed, a curious mind exploring the endless possibilities of Software Engineering and Web
+                Development.
+                I love turning ideas into interactive digital experiences using technologies like JavaScript, React, and
+                Node.js. Whether it's crafting sleek user
+                interfaces or optimizing backend performance, I thrive on solving challenges through code. Always eager
+                to learn, innovate, and build something extraordinary!</p>
+        </section>
+
+       
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="project">
+                    <h3>Brain Scan Ai</h3>
+                    <p>An Ai based web page used to detect the tumor in brain. </p>
+                    <img src="Braintumor.png" alt="brain tumor detection">
+                </div>
+                <div class="project">
+                    <h3>Alo yoga</h3>
+                    <p>An E-commerce website for clothes</p>
+                    <a href="https://aloyoga.netlify.app/"><img src="Screenshot 2025-06-20 160727.png" alt="Orbit Tracker"></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="120">
+
+                <label>Hobbies:</label>
+                <div class="hobbies-group">
+                    <div>
+                        <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+                        <label for="gaming">Gaming</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="space" name="hobbies" value="space">
+                        <label for="space">Space</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="coding" name="hobbies" value="coding">
+                        <label for="coding">Coding</label>
+                    </div>
+                </div>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address">
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country">
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/waleed-murad-831699219/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/waleedmurad91" target="_blank">GitHub</a>
+            </div>
+            <p>© 2025 Waleed Murad. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
